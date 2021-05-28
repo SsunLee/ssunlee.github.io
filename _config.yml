@@ -1,17 +1,4 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,7 +8,7 @@ title_separator          : "-"
 subtitle                 : "Sunbae.lee" # site tagline that appears below site title in masthead
 name                     : "이순배"
 description              : "쑨쑨배의 각종 지식공유를 할 공간"
-url                      : https://ssunlee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ssunlee.github.io #http://localhost:4000/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : SsunLee/ssunlee.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/my_profile.PNG" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -29,10 +16,12 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : "지식공유는 항상 즐겁다" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
+# 댓글부분
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Sunbae" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
