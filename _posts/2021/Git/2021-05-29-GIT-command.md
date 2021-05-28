@@ -1,3 +1,20 @@
+---
+title: Git Command
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+categories:
+- Git
+toc: true
+toc_sticky: true
+toc_label: 목차
+description: 기본 
+---
+
+
 ### 🐸 Git Clone
 ```
 git clone https://github.com/SsunLee/ssunlee.github.io

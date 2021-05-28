@@ -6,7 +6,7 @@ locale                   : "ko-KR"
 title                    : "쑨쑨배의 Github"
 title_separator          : "-"
 subtitle                 : "Sunbae.lee" # site tagline that appears below site title in masthead
-name                     : "이순배"
+name                     : "sunbae.lee"
 description              : "쑨쑨배의 각종 지식공유를 할 공간"
 url                      : https://ssunlee.github.io #http://localhost:4000/
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -189,7 +189,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5 # 한 페이지에 보여줄 post 개수
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -201,6 +201,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-algolia
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -256,12 +257,16 @@ defaults:
       type: posts
     values:
       layout: single
+      aside:
+        toc: true # 사이드 메뉴 활성화
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
-      
+      show_edit_on_github: true
+      key: anything # 반드시 이 구문을 넣어야 disqus 댓글이 각 post 마다 실행됨      
+
   # _pages
   - scope:
       path: "_pages"
@@ -269,3 +274,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+
+# algolia search
+algolia:
+  application_id: 3J2GX9CGJL
+  index_name: sunbae # You can replace that with whatever name you want
+  files_to_exclude: []
+  nodes_to_index: 'article'
+  search_only_api_key: e176533dccba8df6441f65373131db4a
