@@ -14,10 +14,7 @@ toc: true                     # 목차 기능
 toc_sticky: true
 toc_label: 목차  
 description: blog 포스팅 시 기본 복사해서 쓸 내용 ^^
-article_tag1: 
-article_section: 
 meta_keywords: jekyll, 마크다운, 이모지
-last_modified_at: 
 popular: true
 ---
 
