@@ -1,3 +1,20 @@
+---
+title: Ruby 설치 및 환경 설정  # 제목
+layout: single                
+author_profile: true          # 좌측 내 프로필 보여질 건지
+read_time: true
+comments: true                # 댓글 열것인지?
+share: true                   # 공유 기능 
+related: true
+categories:                   # 카테고리 지정
+- Git
+toc: true                     # 목차 기능 
+toc_sticky: true
+toc_label: 목차
+description: 기본 
+---
+
+
 🐶 Ruby 설치 및 환경 설정
 ========================
 <br/>
