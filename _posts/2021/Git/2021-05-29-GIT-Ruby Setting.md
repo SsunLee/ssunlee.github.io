@@ -39,8 +39,8 @@ description: 기본
 
 ![](https://images.velog.io/images/ssunbae/post/f7f6ecfa-d0b3-4fe6-ba10-a3f70eb815c1/image.png)
 
-##### ~~저는 Ruby+Devkit 3.0 1-1 (x64) 를 다운 받았습니다.~~
-#### 다른 버전은 오류가나서 Ruby+Devkit 2.5.7-1 (x64) 로 설치 합니다.
+~~저는 Ruby+Devkit 3.0 1-1 (x64) 를 다운 받았습니다.~~  
+다른 버전은 오류가나서 Ruby+Devkit 2.5.7-1 (x64) 로 설치 합니다.
 
 ![](https://images.velog.io/images/ssunbae/post/ff58da45-af10-4f21-aff8-a52dd8cfbde1/image.png)
 
@@ -49,11 +49,11 @@ description: 기본
 ![](https://images.velog.io/images/ssunbae/post/f6c8b9a5-3a95-4909-8455-6ae66d9ff95b/image.png)
 
 
-#### Ruby를 설치 완료 하면 이렇게 화면이 뜨는 걸 확인 합니다.
+Ruby를 설치 완료 하면 이렇게 화면이 뜨는 걸 확인 합니다.
 ![](https://images.velog.io/images/ssunbae/post/b31b364f-bf30-4183-86f7-761b16b20051/image.png)
 
 
-#### Gemfile이 있는 경로에서 명령어를 실행하기 위해 
+Gemfile이 있는 경로에서 명령어를 실행하기 위해  
 file이 있는 경로에서 cmd라고 검색을 합니다.
 
 ![](https://images.velog.io/images/ssunbae/post/daada190-7707-4e0a-832f-fe59e775d2a1/image.png)
@@ -69,19 +69,20 @@ jekyll serve
 <br/>
 <br/>
 
-## 🦁 Ruby 제대로 설치 되었는지 확인  
+## 🦁 Ruby 설치 확인  
 ---
 <br/>
 
-#### 이미지와 같이 명령어가 잘 실행이 되면  
-#### 인터넷 주소 창에 **http://localhost:4000/** 를 입력하면 아래와 같이 sample 사이트가 보여집니다.
+이미지와 같이 명령어가 잘 실행이 되면  
+
+인터넷 주소 창에 **http://localhost:4000/** 를 입력하면 아래와 같이 sample 사이트가 보여집니다.
 
 ![](https://images.velog.io/images/ssunbae/post/4b923614-823f-49be-8f39-c1e56873de38/image.png)
 
 <br/>
 
-#### 최종 push 하기 전 작업
-#### 불필요한 파일을 정리하는 작업을 합니다.
+최종 push 하기 전 작업 
+불필요한 파일을 정리하는 작업을 합니다.
 
 ```
 .github
@@ -111,6 +112,7 @@ git push -u origin main
 > **Trouble Shooting**
 
 - 아래와 같은 오류가 발생하는 경우 해결법을 실행 후 다시 push
+
 ```
 tnsqo@DESKTOP-FK3U9VS MINGW64 /c/sun/sunbae_blog (main)
 $ git push -u origin main
@@ -124,6 +126,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
 - 해결법 :  git pull origin 브런치명 --allow-unrelated-histories
+
 ```
 tnsqo@DESKTOP-FK3U9VS MINGW64 /c/sun/sunbae_blog (main)
 $ git pull origin main  --allow-unrelated-histories
@@ -142,6 +145,8 @@ Automatic merge failed; fix conflicts and then commit the result.
 PUSH 가 제대로 되었다면 내 github 주소에 접속할 때도 동일하게
 표시되는 것을 확인 할 수 있습니다.
 ![](https://images.velog.io/images/ssunbae/post/36cacd39-4920-4a70-b3e6-eb5264b3b0d4/image.png)
+
+<br/><br/>
 
 ## 🦁 Ruby Server 실행방법
 ---
