@@ -8,7 +8,7 @@ title_separator          : "-"
 subtitle                 : "Sunbae.lee" # site tagline that appears below site title in masthead
 name                     : "sunbae.lee"
 description              : "쑨쑨배의 각종 지식공유를 할 공간"
-url                      : http://localhost:4000/ #https://ssunlee.github.io #http://localhost:4000/
+url                      : https://ssunlee.github.io #http://localhost:4000/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : SsunLee/ssunlee.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/my_profile.PNG" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
