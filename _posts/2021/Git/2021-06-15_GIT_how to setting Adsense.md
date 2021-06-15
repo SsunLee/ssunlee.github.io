@@ -20,7 +20,7 @@ popular: true
 
 
 
-### 에드센스 사이트 추가 하기
+### 😀 에드센스 사이트 추가 하기
 
 ```javaScript
 <script data-ad-client="ca-pub-3025305005440839" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -30,7 +30,7 @@ popular: true
 
 <br/>
 
-### 하단 footer 영역에 추가
+### 😀 하단 footer 영역에 추가
 _layout\default.html 에 추가 합니다.
 ```javascript
 <section class="page__content" itemprop="text">
@@ -44,7 +44,7 @@ _layout\default.html 에 추가 합니다.
 </footer>
 ```
 
-### 블로그 하단에 추가
+### 😀 블로그 하단에 추가
 _layout\default.html 에 작성 (위에서 이미 함)
 
 _include\footer\custom.html 에 작성
@@ -55,7 +55,7 @@ _include\footer\custom.html 에 작성
 ```
 
 
-### 각 포스트 하단에 추가
+### 😀 각 포스트 하단에 추가
 _layout\single.html 에 작성
 ```js
       <script data-ad-client="ca-pub-3025305005440839" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
