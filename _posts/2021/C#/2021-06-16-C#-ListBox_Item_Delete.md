@@ -63,3 +63,4 @@ private void lst_files_KeyDown(object sender, KeyEventArgs e)
 sender로 받아 들여진 object를 ListBox로 변환을 하여,  
 현재 선택 된 SelectedIndex라는 Property를 통해서 선택한 항목을 Remove 합니다.
 
+![image](https://user-images.githubusercontent.com/41108401/122157521-f0cfad80-cea5-11eb-82a2-d061bbee1f9e.png)
