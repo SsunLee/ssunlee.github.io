@@ -18,7 +18,7 @@ meta_keywords: C# Selenium
 popular: true
 ---
 
-### **Selenium 이란?**
+### **😀 Selenium 이란?**
 셀레늄(Selenium)은 웹 애플리케이션 테스트를 위한 포터블 프레임워크이다.  
  셀레늄은 테스트 스크립트 언어를 학습할 필요 없이   
  기능 테스트를 만들기 위한 플레이백 도구를 제공한다.   
@@ -31,7 +31,7 @@ popular: true
 
 <br/>
 
- ### **Visual Studio 시작**
+### **😀 Visual Studio 시작**
 Visual Studio 설치 부터 작성 하자 하면 너무 길어지니 그냥 세팅 되어있다는 간주하에 작성 해봅니다.  
 
  Visual Studio에는 Nuget Package라는 아주 좋은 기능이 있습니다.  
@@ -44,6 +44,8 @@ Nuget Package 받는 법은 아래 이미지와 같습니다.
 
 <br/>
 
+### **😀 Nuget으로 Selenium 다운받기**
+
 이미지와 같이 Nuget package 에서 Selenium을 검색하여  
 다운로드 받으시면 끝입니다.
 
@@ -51,6 +53,7 @@ Nuget Package 받는 법은 아래 이미지와 같습니다.
 
 그럼 초기 세팅은 끝.
 
+### **😀 코드작성하기**
 
 대충 form load Event에 코드를 작성 합니다.
 Nuget으로 참조를 설정 했으니 사용할 때 아래 와같이 using 선언해줍니다.
