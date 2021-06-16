@@ -29,7 +29,7 @@ UI 화면에 보여지는 Delay를 주기 위해서 사용하기
 <br/>
 
 #### 😀 Delay 구현하기
-```Csharp
+~~~Csharp
 private static DateTime Delay(int MS)
 {
     // Thread 와 Timer보다 효율 적으로 사용할 수 있음.
@@ -44,10 +44,10 @@ private static DateTime Delay(int MS)
     }
     return DateTime.Now;
 }
-```
+~~~
 
 #### 😀 Delay 사용하기
-```Csharp
+~~~Csharp
 private void test()
 {
     // 테스트 
@@ -58,10 +58,10 @@ private void test()
     }
 
 }
-```
+~~~
 
 #### 😀 Source Code
-```Csharp
+~~~Csharp
 private void test()
 {
     // 테스트 
@@ -88,4 +88,5 @@ private static DateTime Delay(int MS)
     }
     return DateTime.Now;
 }
-```
+~~~
+
