@@ -20,17 +20,16 @@ popular: true
 
 #### 😀 Delay를 사용하게 된 계기
 
-<p style="font-size:12px";>
 Thread.Sleep() 메서드로 일시 중단할 수 있지만,  
 Sleep()이 되는 동안 자유롭게 컨트롤이 불가하고  
 UI 화면에 보여지는 Delay를 주기 위해서 사용하기  
 위해서는 비효율적이라고 판단이 되어서이다.
-</p>
+
 
 <br/>
 
 #### 😀 Delay 구현하기
-```C#
+```Csharp
 private static DateTime Delay(int MS)
 {
     // Thread 와 Timer보다 효율 적으로 사용할 수 있음.
@@ -48,7 +47,7 @@ private static DateTime Delay(int MS)
 ```
 
 #### 😀 Delay 사용하기
-```C#
+```Csharp
 private void test()
 {
     // 테스트 
@@ -62,7 +61,7 @@ private void test()
 ```
 
 #### 😀 Source Code
-```C#
+```Csharp
 private void test()
 {
     // 테스트 
