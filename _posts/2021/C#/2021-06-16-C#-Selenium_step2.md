@@ -38,7 +38,7 @@ C# Selenium Visual Studio
 ![image](https://user-images.githubusercontent.com/41108401/122145422-2e294080-ce90-11eb-9637-62ee0f892b6a.png)
 
 ~~~cs
-var element = driver.FindElement(By.Name("email"));
+var element = driver.FindElement(By.Id("email"));
 ~~~
 
 저 위에 텍스트 상자 id가 email 인지 어떻게 아냐구요?  
@@ -56,7 +56,7 @@ var element = driver.FindElement(By.Name("email"));
 그리하여 최종 코드는 아래 처럼 하면 되겠습니다.
 
 ~~~cs
-var element = driver.FindElement(By.Name("email"));
+var element = driver.FindElement(By.Id("email"));
 string email = "adcde@gmail.com";
 element.SendKeys(email);
 ~~~
@@ -69,7 +69,7 @@ element.SendKeys(email);
 이메일 텍스트 상자의 id를 찾았을 때와 동일한 방법으로  
 찾으면 됩니다.
 ~~~cs
-element = driver.FindElement(By.Name("pass"));
+element = driver.FindElement(By.Id("pass"));
 string pass = "qwer1234";
 element.SendKeys(pass);
 ~~~
@@ -81,7 +81,7 @@ element.SendKeys(pass);
 #### **😀 로그인 버튼 누르기!**
 
 ~~~cs
-element = driver.FindElement(By.Name("pass"));
+element = driver.FindElement(By.Id("pass"));
 string pass = "qwer1234";
 element.SendKeys(pass);
 element.Submit();
